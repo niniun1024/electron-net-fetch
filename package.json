@@ -1,10 +1,9 @@
 {
   "name": "electron-net-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A light-weight module by Electron's net module for get http/https data",
   "main": "src/index.js",
   "scripts": {
-    // "test": "npm run src/index.js"
   },
   "keywords": [
     "electron",

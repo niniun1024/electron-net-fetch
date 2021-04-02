@@ -6,7 +6,7 @@ const Url = require('url');
 const IsJson = require('./utils/IsJson');
 
 
-let Fetch = function(){
+let Fetch = {
   net(opts, params, resolve, reject){
     let request = net.request(opts);
     request.on('response', (response) => {
